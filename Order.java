@@ -14,5 +14,8 @@ class Order {
         items.add("Chicken Sandwich");
         System.out.println("You've added a chicken sandwich. yay");
     }
-
+	public void addChickenNuggies() {
+		totalCost += 4;
+		items.add("Chicken Nuggets");
+		System.out.println("You've added chicken nuggies");
 }
